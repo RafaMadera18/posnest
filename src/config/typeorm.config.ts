@@ -1,6 +1,6 @@
 import type { TypeOrmModuleOptions } from '@nestjs/typeorm';
 import { ConfigService } from '@nestjs/config';
-import { join } from 'path';
+import { join } from 'node:path';
 
 export const typeOrmConfig = (
   configService: ConfigService,
